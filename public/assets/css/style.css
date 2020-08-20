@@ -2674,7 +2674,7 @@ body::before {
   height: 100px;
   margin: 10px;
   filter: grayscale(100%);
-  transition: all 2s ease;
+  transition: all 1s ease;
 }
 
 .sidebar-logos:hover {
