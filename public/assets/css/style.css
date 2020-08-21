@@ -2667,6 +2667,7 @@ body::before {
   max-width: 100px;
   min-height: 100px;
   max-height: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
 }
 
 .logo-margin {
