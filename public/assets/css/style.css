@@ -1333,9 +1333,9 @@ body.has-active-slider #outer-wrapper #inner-wrapper {
   z-index: 1;
 }
 
-#content-wrapper {
+/*#content-wrapper {
   vertical-align: initial !important; 
-}
+}*/
 
 #outer-wrapper #inner-wrapper #table-wrapper #row-content #content-wrapper.bottom {
   vertical-align: bottom;
