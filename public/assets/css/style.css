@@ -1446,14 +1446,14 @@ body.has-active-slider #outer-wrapper #inner-wrapper {
 }
 .side-panel h2, .modal h2 {
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 600;
   text-transform: uppercase;
   margin-top: 5px;
   margin-bottom: 30px;
 }
 .side-panel h3, .modal h3 {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .side-panel {
