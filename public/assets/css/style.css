@@ -1201,17 +1201,23 @@ body.has-active-slider #outer-wrapper #inner-wrapper {
   padding: 50px 0;
   z-index: 1;
 }
+
+/* main page visible */
+
 #outer-wrapper #inner-wrapper #table-wrapper .container {
   height: 100%;
   display: table;
 }
 #outer-wrapper #inner-wrapper #table-wrapper #row-header {
   position: relative;
+  width: 100%;
   z-index: 1;
+  display: table;
 }
 #outer-wrapper #inner-wrapper #table-wrapper #row-footer {
   bottom: 50px;
   position: relative;
+  display: table-footer-group;
 }
 #outer-wrapper #inner-wrapper #table-wrapper #row-content {
   display: table;
@@ -2723,6 +2729,7 @@ body::before {
   }
 }
 
+/* language icon */
 .lang {
   font-size: 1.5em;
   font-weight: bold;
