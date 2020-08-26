@@ -2731,7 +2731,6 @@ body::before {
 
 /* language icon */
 .lang {
-  font-size: 1.5em;
   font-weight: bold;
   text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.65);
 }
@@ -2747,4 +2746,34 @@ body::before {
   .column-address-flex {
     order: 2;
   }
+}
+
+.copyright {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: x-small;
+  text-align: center;
+}
+
+.logos-wrapper {
+
+}
+
+.logos-wrapper div {
+  min-width: 100px;
+  max-width: 30%;
+  display: inline-block;
+  margin: 5px;
+}
+
+.logo-main {
+  text-shadow: 0px 4px 10px rgba(0,0,0,0.65);
+}
+
+.logo-main p {
+  font-size: 2em;
+  font-weight: 600;
+  opacity: 1;
 }
