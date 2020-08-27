@@ -1217,7 +1217,7 @@ body.has-active-slider #outer-wrapper #inner-wrapper {
 #outer-wrapper #inner-wrapper #table-wrapper #row-footer {
   bottom: 50px;
   position: relative;
-  display: table-footer-group;
+  display: block;
 }
 #outer-wrapper #inner-wrapper #table-wrapper #row-content {
   display: table;
@@ -2749,10 +2749,6 @@ body::before {
 }
 
 .copyright {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
   font-size: x-small;
   text-align: center;
 }
