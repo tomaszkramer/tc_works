@@ -211,7 +211,8 @@ function initializeOwl(){
             $(this).owlCarousel({
                 navContainer: navContainer,
                 animateOut: fadeOut,
-                autoplaySpeed: 2000,
+                autoplaySpeed: 1000,
+                autoplayTimeout: 1000,
                 autoplay: autoplay,
                 autoheight: 1,
                 center: center,
