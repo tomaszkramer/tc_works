@@ -6799,3 +6799,13 @@ button.close {
 .mx-5 {
   margin-left: 3rem !important;
 }
+
+.order-first {
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+.order-last {
+  -ms-flex-order: 13;
+  order: 13;
+}

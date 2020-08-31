@@ -101,6 +101,9 @@
 .owl-carousel .owl-refresh .owl-item {
   display: none;
 }
+
+/*add my own style*/
+
 .owl-carousel .owl-item {
   position: relative;
   min-height: 1px;
@@ -213,4 +216,21 @@
 .owl-carousel .owl-video-frame {
   position: relative;
   z-index: 1;
+}
+
+/*own styling*/
+
+.carousel-partners .owl-item {
+  height: 50px;
+  margin: 0 5px 0 5px;
+  filter: grayscale(100%);
+}
+
+.carousel-partners .owl-item:hover {
+  transition: all 1s ease;
+  filter: grayscale(0%);
+}
+
+.carousel-partners-wrapper {
+  height: auto !important;
 }

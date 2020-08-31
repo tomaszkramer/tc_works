@@ -2776,3 +2776,8 @@ body::before {
   font-weight: 600;
   opacity: 1;
 }
+
+.image-partners {
+  width: 100px;
+  height: 100px;
+}
