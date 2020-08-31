@@ -214,6 +214,7 @@ function initializeOwl(){
                 autoplaySpeed: 1000,
                 autoplayTimeout: 1000,
                 autoplay: autoplay,
+                autoplayHoverPause: true,
                 autoheight: 1,
                 center: center,
                 loop: loop,
