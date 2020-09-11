@@ -120,12 +120,19 @@ $(document).ready(function($) {
     $(".form .btn[type='submit']").on("click", function(){
         var button = $(this);
         var form = $(this).closest("form");
-        button.prepend("<div class='status'></div>");
+        //button.prepend("<div class='status'></div>");
         form.validate({
             submitHandler: function() {
                 $.post("assets/php/email.php", form.serialize(),  function(response) {
-                    button.find(".status").append(response);
+                    //button.find(".status").append(response);
                     form.addClass("submitted");
+                    if(form.data('lang') === 'eng'){
+                        $('.form-contact-status').text('Your message has been sent succesfully');
+                    } else{
+                        $('.form-contact-status').text('Twoja wiadomość została wysłana');
+                    }
+                    //form reset
+                    form.trigger('reset');
                 });
                 return false;
             }

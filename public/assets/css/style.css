@@ -2793,3 +2793,7 @@ body::before {
   width: 100px;
   height: 100px;
 }
+
+.form-contact-status {
+  font-size: 2em !important;
+}
